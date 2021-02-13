@@ -18,6 +18,11 @@ html {
 
 .navbar a {
     color: grey;
+    transition: all 0.2s ease-in;
+}
+
+.navbar a:hover {
+    color: crimson;
 }
 
 #right-rocket-img, #houseimg {
@@ -322,5 +327,28 @@ footer {
 
     #right-rocket-img {
         width: 60vw;
+    }
+}
+
+.profession:after {
+    content: "";
+    animation: profession 10s infinite linear;
+}
+
+@keyframes profession {
+    0% {
+        content: 'professional developer';
+    }
+    25% {
+        content: 'Web Developer';
+    }
+    50% {
+        content: 'Andoid Developer';
+    }
+    75% {
+        content: 'Ios Developer';
+    }
+    100% {
+        content: 'Editor';
     }
 }
