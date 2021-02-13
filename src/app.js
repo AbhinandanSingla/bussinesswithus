@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = process.env.PORT || 8000;
 const hbs = require('hbs');
-require('./db/conn');
+// require('./db/conn');
 const path = require('path');
 const views_path = path.join(__dirname, '../templates/views');
 const partials_path = path.join(__dirname, '../templates/partials');
