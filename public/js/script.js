@@ -56,6 +56,3 @@ state.forEach((val) => {
     state_btn.add(option, state_btn[counter]);
     counter++
 })
-submit_btn.addEventListener('submit',()=>{
-
-});
